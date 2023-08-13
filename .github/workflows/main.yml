@@ -3,7 +3,7 @@ on:
     push:
         branches:
             # Here we choose to deploy only when a push is detect on the main branch
-            - master
+            - main
 
 jobs:
     # Jobs define the functionality that will be run in the workflow and run in parallel by default

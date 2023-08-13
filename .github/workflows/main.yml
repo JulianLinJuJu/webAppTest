@@ -20,5 +20,5 @@ jobs:
             aws-region: ap-southeast-1 #update S3 bucket region here
 
         - name: Deploy static website to S3 bucket
-          run: aws s3 sync ./public/ s3://juju-web-app-test --delete #update bucketname here
+          run: aws s3 sync . s3://juju-web-app-test --delete #update bucketname here
        
